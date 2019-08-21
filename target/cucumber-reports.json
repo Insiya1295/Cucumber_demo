@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "My demo report validation in jenkins today",
+        "description": "",
+        "id": "test-validation-for-the-git-jenkins-integration;my-demo-report-validation-in-jenkins-today",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15843470500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "TestMe is up and running",
+            "match": {
+              "location": "LoginFunctionality.testme_is_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12100391000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "registered user enters the valid creds",
+            "match": {
+              "location": "LoginFunctionality.registered_user_enters_the_valid_creds()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51429600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "verifies for the login status for cred",
+            "match": {
+              "location": "LoginFunctionality.verifies_for_the_login_status_for_cred()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test validation for the git jenkins integration",
+    "description": "",
+    "id": "test-validation-for-the-git-jenkins-integration",
+    "keyword": "Feature",
+    "uri": "C:/Users/training_h2a.06.15/Desktop/Selenium_workplace/Cucumber_Demo_Project/Feature456/mytest999.feature",
+    "tags": []
+  }
+]
